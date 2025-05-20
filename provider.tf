@@ -17,6 +17,5 @@ terraform {
  backend "gcs" {
     bucket      = "tf-state-inpost-devops-assessment"
     prefix      = "cloudrun"
-    credentials = "/Users/piotrwierzyk/terraform-serviceaccount.json"
  }
 }
